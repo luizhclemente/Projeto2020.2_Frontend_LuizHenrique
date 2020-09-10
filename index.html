@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piupiuwer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    
+<body>
+    <header id="main-header">
+        <div class="content head">
+            <a href=""><img src="images/home.svg"></a>
+            <a href=""><img class="bell" src="images/bell.svg"></a>
+            <img id="parrot-logo" src="images/parrot-logo.svg">
+            <a href=""><img src="images/settings.svg"></a>
+            <a href=""><img src="images/user.svg"></a>
+        </div> 
+    </header>
+
+    <div class="wrapper-content content">
+        <section class="feed" >
+            <div class="post">
+                <img class="avatar" src="images/luiz.jpg">
+                <div class="write">
+                    <!-- <input class="write-piu" type="text" placeholder="Have you already pied today?"> -->
+                    <textarea class="write-piu" id="write-piu" placeholder="Já piou hoje?"></textarea>
+                    <div class="popup">
+                        <div class="popup-content">Verifique se o seu Piu possui menos que 140 caracteres ;)</div>
+                        <img class="close" src="images/x-circle.svg">  
+                    </div>
+                    <div id="remaining-char"></div>
+                    <div class="icons-write">
+                        <button><img src="images/smile.svg"></a>
+                        <button><img src="images/image.svg"></a>
+                        <button><img src="images/video.svg"></a>
+                        <button class="piu-button">Piu</button> 
+                    </div>
+                </div> 
+            </div>
+            <div class="organiza-pius"></div>
+        </section>
+        <div class="widget">
+            <div>
+                <input class="search" id="search" type="text" placeholder="Pesquise no Piupiuwer">
+            </div>
+            <div class="widgets moments">
+                <strong class="title">fique por dentro</strong>
+                <ul>
+                    <li>
+                        <div class="profile">
+                            <div class="assunto">
+                                <span>eventos · Bombando</span>
+                                <strong>Workshop Integrativo</strong>
+                                <span>100k pius</span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile">
+                            <div class="assunto">
+                                <span>esportes · Ontem</span>
+                                <strong>Messi</strong>
+                                <span>500k pius</span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </li>                    <li>
+                        <div class="profile">
+                            <div class="assunto">
+                                <span>negócios · Bombando</span>
+                                <strong>Jeff Bezos</strong>
+                                <span>50k pius</span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="widgets people">
+                <strong class="title">já os conhece?</strong>
+                <ul>
+                    <li>
+                        <div class="profile">
+                            <img src="images/luiz.jpg">
+                            <div class="info">
+                                <strong>Luiz</strong> 
+                                <span>@luizhclemente</span>
+                            </div>
+                            <button class="profile-button">seguir</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile">
+                            <img src="images/luiz.jpg">
+                            <div class="info">
+                                <strong>Luiz</strong> 
+                                <span>@luizhclemente</span>
+                            </div>
+                            <button class="profile-button">seguir</button>
+                        </div>
+                    </li>                    <li>
+                        <div class="profile">
+                            <img src="images/luiz.jpg">
+                            <div class="info">
+                                <strong>Luiz</strong> 
+                                <span>@luizhclemente</span>
+                            </div>
+                            <button class="profile-button">seguir</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/piu.js"></script>
+    <script src="js/count-char.js"></script>
+    <script src="js/pius-api.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
